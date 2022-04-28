@@ -13,17 +13,11 @@ import {Link} from '@mui/material';
 const Header= () =>{
     return(
         <Box sx={{ flexGrow: 1, }}>
-          <AppBar position="static" color="secondary">
+          <AppBar position="static" sx={{backgroundColor:"#81fca4"}}>
             <Toolbar>
-              
-              {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                <Link component={RouterLink} to="/">Home</Link>
-                <Link component={RouterLink} to="/gallery">Gallery</Link>
-                <Link component={RouterLink} to="/contact">Contact</Link>
-              </Typography> */}
-              <Button color="inherit">Gene</Button>
-              <Button color="inherit">Projects</Button>
-              <Button color="inherit">Contact Me</Button>
+            <Link component={RouterLink} to="/">Resume</Link>
+            <Link component={RouterLink} to="/projects">Projects</Link>
+            <Link component={RouterLink} to="/contact">Contact</Link>
             </Toolbar>
           </AppBar>
         </Box>
