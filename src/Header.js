@@ -14,7 +14,7 @@ const Header= () =>{
     return(
         <Box sx={{ flexGrow: 1, }}>
           <AppBar position="static" sx={{backgroundColor:"#81fca4"}}>
-            <Toolbar>
+            <Toolbar sx={{gap:2}}>
             <Link component={RouterLink} to="/">Resume</Link>
             <Link component={RouterLink} to="/projects">Projects</Link>
             <Link component={RouterLink} to="/contact">Contact</Link>

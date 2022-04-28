@@ -45,11 +45,16 @@ const Contact = () => {
             backgroundColor: "#cffce8",
             
           }}>
-       
-          <Typography variant='h1' component='h1'>
+        <Grid item sm={12} >
+          <Typography variant='h1' component='h1' textAlign='center'>
             Let's Talk
           </Typography>
-        
+          </Grid>
+          <Grid item sm={12}>
+          <Typography variant='p' component='p' textAlign='center'>
+            or visit me on GitHub <a href="https://github.com/genepogiultimate">Gene Paderes</a>
+          </Typography>
+          </Grid>
       </Grid>
       <Grid container sx={{ maxWidth: 250 , backgroundColor:'#e8dada'}}  paddingRight={3}>
           <Grid> 
